@@ -1,0 +1,40 @@
+{
+    "name": "digitalsurgeons/rollerblade",
+    "description": "A simple plugint to use a regular old Asset source for your SVG Icons, but still have flexibility in inlining the output.",
+    "type": "craft-plugin",
+    "version": "0.1.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "rollerblade"
+    ],
+    "support": {
+        "docs": "https://github.com/digitalsurgeons/craft-rollerblade/blob/master/README.md",
+        "issues": "https://github.com/digitalsurgeons/craft-rollerblade/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Digital Surgeons",
+            "homepage": "https://digitalsurgeons.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "digitalsurgeons\\rollerblade\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Rollerblade",
+        "handle": "rollerblade",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/digitalsurgeons/craft-rollerblade/master/CHANGELOG.md",
+        "class": "digitalsurgeons\\rollerblade\\Rollerblade"
+    }
+}
